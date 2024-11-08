@@ -1,0 +1,230 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  direction: rtl;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  user-select: none;
+}
+
+span.hr {
+  border: 1px solid #669999;
+  width: 50% !important;
+  position: absolute;
+  top: 40%;
+}
+
+div.box > p {
+  color: #006666;
+  /* background-color: red; */
+}
+
+label.mycolor {
+  color: #408080 !important;
+}
+
+span.nowrap {
+  white-space: nowrap;
+}
+
+input[type="text"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #4080804f;
+}
+
+input#ghad,
+input#vazn {
+    direction: ltr;
+}
+
+
+input::placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30%;
+  color: #616161;
+}
+
+.bmi {
+    width: 80%;
+  }
+
+  @media(max-width:400px){
+    body {
+        height: auto;
+        padding: 20px;
+      }
+      .arrow {
+        width: 20%;
+        height: 90px;
+        left: 0%;
+        top: 3%;
+      }
+      
+      .areaone {
+        top: 13%;
+      }
+      .areatwo {
+        top: 23%;
+      }
+      .areathree {
+        top: 33%;
+      }
+      .areafour {
+        top: 43%;
+      }
+      .areafive {
+        top: 53%;
+      }
+      .areasix {
+        top: 63%;
+      }
+      .areasever {
+        top: 73%;
+      }
+  }
+
+@media (min-width:400px) and (max-width:500px){
+     body {
+        height: auto;
+        padding: 20px;
+      }
+      .arrow {
+        width: 20%;
+        height: 90px;
+        left: 0%;
+        top: 5%;
+      }
+      
+      .areaone {
+        top: 15%;
+      }
+      .areatwo {
+        top: 25%;
+      }
+      .areathree {
+        top: 35%;
+      }
+      .areafour {
+        top: 45%;
+      }
+      .areafive {
+        top: 55%;
+      }
+      .areasix {
+        top: 65%;
+      }
+      .areasever {
+        top: 75%;
+      }
+}
+
+  @media (min-width:500px) and (max-width:600px){
+    body {
+        height: auto;
+        padding: 20px;
+      }
+      .arrow {
+        width: 20%;
+        height: 90px;
+        left: 0%;
+        top: 8%;
+      }
+      .areaone {
+        top: 18%;
+      }
+      .areatwo {
+        top: 28%;
+      }
+      .areathree {
+        top: 38%;
+      }
+      .areafour {
+        top: 48%;
+      }
+      .areafive {
+        top: 58%;
+      }
+      .areasix {
+        top: 68%;
+      }
+      .areasever {
+        top: 78%;
+      }
+  }
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  body {
+    height: auto;
+    padding: 20px;
+  }
+  .arrow {
+    width: 20%;
+    height: 90px;
+    left: 0%;
+    top: 10%;
+  }
+  .areaone {
+    top: 20%;
+  }
+  .areatwo {
+    top: 30%;
+  }
+  .areathree {
+    top: 40%;
+  }
+  .areafour {
+    top: 50%;
+  }
+  .areafive {
+    top: 60%;
+  }
+  .areasix {
+    top: 70%;
+  }
+  .areasever {
+    top: 80%;
+  }
+}
+
+@media (min-width:1200px) {
+    .arrow {
+        width: 20%;
+        height: 90px;
+        left: 0%;
+        top: 10%;
+      }
+      .areaone {
+        top: 20%;
+      }
+      .areatwo {
+        top: 30%;
+      }
+      .areathree {
+        top: 40%;
+      }
+      .areafour {
+        top: 50%;
+      }
+      .areafive {
+        top: 60%;
+      }
+      .areasix {
+        top: 70%;
+      }
+      .areasever {
+        top: 80%;
+      }
+      
+}
